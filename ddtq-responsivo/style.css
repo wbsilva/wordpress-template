@@ -1,0 +1,163 @@
+/*
+Theme Name: DDTQ Responsivo
+Theme URI: http://localhost/ddtq
+Description: Site desenvolvido para a DDTQ
+Author: Sd QPM 2-0 Willian Bezerra da Silva
+Author URI: http://localhost/ddtq
+Version: 1.0
+*/
+
+.clear{
+	clear: both;
+}
+
+
+/* Menu customizado */
+.header .navbar-custom{
+	border: none;
+	padding: 0;
+	margin-bottom: 0;
+	
+
+
+}
+/* logo*/
+.header .navbar-custom .navbar-brand span{
+	margin-top: 0px;
+
+}
+
+
+.navbar-brand-custom{
+	height: 10px;
+}
+
+
+
+/* Navbar Customizado aplicar customização nos links*/
+.header .navbar-collapse-custom a{
+	height: 80px;
+	color:#333;
+	font-size: 20px;
+	padding: 30px;
+
+}
+
+/* SLIDER */
+
+.carrousel-indicator .active{
+	background:#00e0d0;
+	
+}
+/* Botoes */
+.blog .link{
+	margin: 0 auto;
+	width: 129px;
+
+}
+.servicos .link{
+	margin: 0 auto;
+	width: 129px;
+	
+}
+
+
+
+/* Pagina Index */
+.servicos a{
+	color: #333;
+	opacity: 0.7;
+}
+
+.servicos a:hover{
+	opacity: 1;
+}
+.icone{
+	margin-bottom: 40px;
+	text-align: center;
+}
+.title-servicos h2{
+	font-size: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.servicos{
+	padding: 10px 0;
+	background: url(assets/images/fundo.png) fixed;
+	margin-top: 0px;
+}
+
+.servicos i{
+	font-size: 50px;
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+}
+
+
+
+.sobre {
+	background: url(assets/images/fundo.png) fixed;
+	padding: 20 0px;
+
+}
+.sobre h2{
+	font-size: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.blog {
+	background: url(assets/images/fundo.png) fixed;
+	padding: 20 0px;
+}
+.title-blog h2{
+	font-size: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.blog a{
+	color: #333;
+	opacity: 0.7;
+}
+
+.blog a:hover{
+	opacity: 1;
+}
+
+/* Footer */
+
+.footer {
+	background: url(assets/images/fundopreto.jpg) center top;
+	padding: 50 0px;
+}
+
+.footer p{
+	color: #fff;
+	text-align: center;
+}
+
+/* Pagina Interna */
+
+.header-internas{
+	background: url(assets/images/header-interna.jpeg) center top fixed;
+	padding: 40px 0;
+	margin-bottom: 40px;
+}
+
+.header-internas h2{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.header-internas #crumbs{
+	color: #fff;
+	text-align: right;
+	margin-top: 20px;
+}
+
+.header-internas #crumbs a{
+	color: #00e0d0;
+}
